@@ -1,0 +1,103 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/teslaa/AndroidStudioProjects/JMedic/app/src/main/AndroidManifest.xml:2:1-21:12
+INJECTED from /Users/teslaa/AndroidStudioProjects/JMedic/app/src/main/AndroidManifest.xml:2:1-21:12
+INJECTED from /Users/teslaa/AndroidStudioProjects/JMedic/app/src/main/AndroidManifest.xml:2:1-21:12
+INJECTED from /Users/teslaa/AndroidStudioProjects/JMedic/app/src/main/AndroidManifest.xml:2:1-21:12
+MERGED from [com.android.support:appcompat-v7:27.1.1] /Users/teslaa/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/84329649b6ac1844eb704461657be3aa/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support.constraint:constraint-layout:1.1.0] /Users/teslaa/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.0.aar/24b9044fcfa2fedb881374ed257d774c/AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:support-fragment:27.1.1] /Users/teslaa/.gradle/caches/transforms-1/files-1.1/support-fragment-27.1.1.aar/ca2b2e30642516c2ec1263079072fc60/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] /Users/teslaa/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.1.1.aar/bbaa5b2c548297c18347af951e48bd0b/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:27.1.1] /Users/teslaa/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.1.1.aar/3179308e7506f0acd6d3418b0a8ff43f/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:27.1.1] /Users/teslaa/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.1.1.aar/457250c2e95d5fe8315fce0cff368fee/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:27.1.1] /Users/teslaa/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.1.1.aar/f2427df296ed240bbffb1975509c0a2e/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:27.1.1] /Users/teslaa/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/7ff2269ae2628023ad831e300e29b88f/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] /Users/teslaa/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.0.aar/f80ef5cb47b2a183d05b1dfd92b40c1d/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /Users/teslaa/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.0.aar/f35fe01fc7c589f6e347adbc2a18fbdb/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.1.0] /Users/teslaa/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/63477a39dcd76e449d95670d9dfa9c79/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.0] /Users/teslaa/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/217bb9c8ab65c88d3bddc8e8abc5c9a0/AndroidManifest.xml:17:1-22:12
+INJECTED from /Users/teslaa/AndroidStudioProjects/JMedic/app/src/main/AndroidManifest.xml:2:1-21:12
+INJECTED from /Users/teslaa/AndroidStudioProjects/JMedic/app/src/main/AndroidManifest.xml:2:1-21:12
+INJECTED from /Users/teslaa/AndroidStudioProjects/JMedic/app/src/main/AndroidManifest.xml:2:1-21:12
+	package
+		ADDED from /Users/teslaa/AndroidStudioProjects/JMedic/app/src/main/AndroidManifest.xml:3:5-32
+		INJECTED from /Users/teslaa/AndroidStudioProjects/JMedic/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/teslaa/AndroidStudioProjects/JMedic/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/teslaa/AndroidStudioProjects/JMedic/app/src/main/AndroidManifest.xml
+		ADDED from /Users/teslaa/AndroidStudioProjects/JMedic/app/src/main/AndroidManifest.xml:2:1-21:12
+		INJECTED from /Users/teslaa/AndroidStudioProjects/JMedic/app/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /Users/teslaa/AndroidStudioProjects/JMedic/app/src/main/AndroidManifest.xml
+		ADDED from /Users/teslaa/AndroidStudioProjects/JMedic/app/src/main/AndroidManifest.xml:2:1-21:12
+		INJECTED from /Users/teslaa/AndroidStudioProjects/JMedic/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/teslaa/AndroidStudioProjects/JMedic/app/src/main/AndroidManifest.xml:2:11-69
+application
+ADDED from /Users/teslaa/AndroidStudioProjects/JMedic/app/src/main/AndroidManifest.xml:5:5-19:19
+MERGED from [com.android.support.constraint:constraint-layout:1.1.0] /Users/teslaa/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.0.aar/24b9044fcfa2fedb881374ed257d774c/AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.0] /Users/teslaa/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.0.aar/24b9044fcfa2fedb881374ed257d774c/AndroidManifest.xml:9:5-20
+	android:supportsRtl
+		ADDED from /Users/teslaa/AndroidStudioProjects/JMedic/app/src/main/AndroidManifest.xml:10:9-35
+	android:label
+		ADDED from /Users/teslaa/AndroidStudioProjects/JMedic/app/src/main/AndroidManifest.xml:8:9-41
+	android:roundIcon
+		ADDED from /Users/teslaa/AndroidStudioProjects/JMedic/app/src/main/AndroidManifest.xml:9:9-54
+	android:icon
+		ADDED from /Users/teslaa/AndroidStudioProjects/JMedic/app/src/main/AndroidManifest.xml:7:9-43
+	android:allowBackup
+		ADDED from /Users/teslaa/AndroidStudioProjects/JMedic/app/src/main/AndroidManifest.xml:6:9-35
+	android:theme
+		ADDED from /Users/teslaa/AndroidStudioProjects/JMedic/app/src/main/AndroidManifest.xml:11:9-40
+activity#net.teslaa.jmedic.MainActivity
+ADDED from /Users/teslaa/AndroidStudioProjects/JMedic/app/src/main/AndroidManifest.xml:12:9-18:20
+	android:name
+		ADDED from /Users/teslaa/AndroidStudioProjects/JMedic/app/src/main/AndroidManifest.xml:12:19-47
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/teslaa/AndroidStudioProjects/JMedic/app/src/main/AndroidManifest.xml:13:13-17:29
+action#android.intent.action.MAIN
+ADDED from /Users/teslaa/AndroidStudioProjects/JMedic/app/src/main/AndroidManifest.xml:14:17-69
+	android:name
+		ADDED from /Users/teslaa/AndroidStudioProjects/JMedic/app/src/main/AndroidManifest.xml:14:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/teslaa/AndroidStudioProjects/JMedic/app/src/main/AndroidManifest.xml:16:17-77
+	android:name
+		ADDED from /Users/teslaa/AndroidStudioProjects/JMedic/app/src/main/AndroidManifest.xml:16:27-74
+uses-sdk
+INJECTED from /Users/teslaa/AndroidStudioProjects/JMedic/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/teslaa/AndroidStudioProjects/JMedic/app/src/main/AndroidManifest.xml
+INJECTED from /Users/teslaa/AndroidStudioProjects/JMedic/app/src/main/AndroidManifest.xml
+MERGED from [com.android.support:appcompat-v7:27.1.1] /Users/teslaa/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/84329649b6ac1844eb704461657be3aa/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:27.1.1] /Users/teslaa/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/84329649b6ac1844eb704461657be3aa/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support.constraint:constraint-layout:1.1.0] /Users/teslaa/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.0.aar/24b9044fcfa2fedb881374ed257d774c/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.1.0] /Users/teslaa/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.0.aar/24b9044fcfa2fedb881374ed257d774c/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:support-fragment:27.1.1] /Users/teslaa/.gradle/caches/transforms-1/files-1.1/support-fragment-27.1.1.aar/ca2b2e30642516c2ec1263079072fc60/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.1.1] /Users/teslaa/.gradle/caches/transforms-1/files-1.1/support-fragment-27.1.1.aar/ca2b2e30642516c2ec1263079072fc60/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] /Users/teslaa/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.1.1.aar/bbaa5b2c548297c18347af951e48bd0b/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] /Users/teslaa/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.1.1.aar/bbaa5b2c548297c18347af951e48bd0b/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.1.1] /Users/teslaa/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.1.1.aar/3179308e7506f0acd6d3418b0a8ff43f/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.1.1] /Users/teslaa/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.1.1.aar/3179308e7506f0acd6d3418b0a8ff43f/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.1.1] /Users/teslaa/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.1.1.aar/457250c2e95d5fe8315fce0cff368fee/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.1.1] /Users/teslaa/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.1.1.aar/457250c2e95d5fe8315fce0cff368fee/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.1.1] /Users/teslaa/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.1.1.aar/f2427df296ed240bbffb1975509c0a2e/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.1.1] /Users/teslaa/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.1.1.aar/f2427df296ed240bbffb1975509c0a2e/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.1.1] /Users/teslaa/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/7ff2269ae2628023ad831e300e29b88f/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.1.1] /Users/teslaa/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/7ff2269ae2628023ad831e300e29b88f/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] /Users/teslaa/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.0.aar/f80ef5cb47b2a183d05b1dfd92b40c1d/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] /Users/teslaa/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.0.aar/f80ef5cb47b2a183d05b1dfd92b40c1d/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /Users/teslaa/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.0.aar/f35fe01fc7c589f6e347adbc2a18fbdb/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /Users/teslaa/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.0.aar/f35fe01fc7c589f6e347adbc2a18fbdb/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.0] /Users/teslaa/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/63477a39dcd76e449d95670d9dfa9c79/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.0] /Users/teslaa/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/63477a39dcd76e449d95670d9dfa9c79/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.0] /Users/teslaa/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/217bb9c8ab65c88d3bddc8e8abc5c9a0/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.0] /Users/teslaa/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/217bb9c8ab65c88d3bddc8e8abc5c9a0/AndroidManifest.xml:20:5-44
+INJECTED from /Users/teslaa/AndroidStudioProjects/JMedic/app/src/main/AndroidManifest.xml
+INJECTED from /Users/teslaa/AndroidStudioProjects/JMedic/app/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /Users/teslaa/AndroidStudioProjects/JMedic/app/src/main/AndroidManifest.xml
+		ADDED from /Users/teslaa/AndroidStudioProjects/JMedic/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/teslaa/AndroidStudioProjects/JMedic/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/teslaa/AndroidStudioProjects/JMedic/app/src/main/AndroidManifest.xml
+		ADDED from /Users/teslaa/AndroidStudioProjects/JMedic/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/teslaa/AndroidStudioProjects/JMedic/app/src/main/AndroidManifest.xml
