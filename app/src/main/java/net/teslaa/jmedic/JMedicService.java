@@ -2,6 +2,7 @@ package net.teslaa.jmedic;
 
 import retrofit2.Call;
 import retrofit2.http.Body;
+import retrofit2.http.GET;
 import retrofit2.http.Headers;
 import retrofit2.http.POST;
 
@@ -18,5 +19,8 @@ public interface JMedicService {
   })
   @POST("/oauth/token?grant_type=password&username=rowanto@uvita.eu&password=88888888")
   Call<TokensTemplateResponse> accessToken();
+
+
+  @GET("")
 
 }

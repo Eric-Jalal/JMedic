@@ -1,8 +1,5 @@
 package net.teslaa.jmedic;
 
-import android.content.Context;
-import android.net.ConnectivityManager;
-import android.net.NetworkInfo;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
@@ -19,18 +16,24 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        JMedicService jMedicService = ApiClient.getClient().create(JMedicService.class);
 
+        // Getting the access token --> Start
+        JMedicService jMedicService = ApiClient.getClient().create(JMedicService.class);
         Call<TokensTemplateResponse> tokensTemplateResponseCall = jMedicService.accessToken();
         tokensTemplateResponseCall.enqueue(new Callback<TokensTemplateResponse>() {
             @Override public void onResponse(Call<TokensTemplateResponse> call,
                 Response<TokensTemplateResponse> response) {
-                Log.i(TAG, "got it" + response.toString());
+                if (response.body() != null) {
+                    Log.i(TAG, "got it" + response.body().access_token);
+                }
             }
 
             @Override public void onFailure(Call<TokensTemplateResponse> call, Throwable t) {
                 Log.e(TAG, "couldn't get");
             }
         });
+        // Getting the access token --> End up
+
+
     }
 }

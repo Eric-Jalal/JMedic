@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/home/amirhossein/AndroidStudioProjects/JMedic/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v17/values-v17.xml",
+            "outputFile": "/Users/teslaa/AndroidStudioProjects/JMedic/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v17/values-v17.xml",
             "map": [
                 {
-                    "source": "/home/amirhossein/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/b55d7c2cae12967ea0224bd00a3a7909/res/values-v17/values-v17.xml",
+                    "source": "/Users/teslaa/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/84329649b6ac1844eb704461657be3aa/res/values-v17/values-v17.xml",
                     "from": {
                         "startLines": "2,5,9,12,15,18,22,26,29,32,35,39,42,46",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4",

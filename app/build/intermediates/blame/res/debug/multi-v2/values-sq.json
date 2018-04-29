@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/home/amirhossein/AndroidStudioProjects/JMedic/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-sq/values-sq.xml",
+            "outputFile": "/Users/teslaa/AndroidStudioProjects/JMedic/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-sq/values-sq.xml",
             "map": [
                 {
-                    "source": "/home/amirhossein/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/e5409628400382fcf6c9b719862fec05/res/values-sq/values-sq.xml",
+                    "source": "/Users/teslaa/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/7ff2269ae2628023ad831e300e29b88f/res/values-sq/values-sq.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -21,7 +21,7 @@
                     }
                 },
                 {
-                    "source": "/home/amirhossein/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/b55d7c2cae12967ea0224bd00a3a7909/res/values-sq/values-sq.xml",
+                    "source": "/Users/teslaa/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/84329649b6ac1844eb704461657be3aa/res/values-sq/values-sq.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",

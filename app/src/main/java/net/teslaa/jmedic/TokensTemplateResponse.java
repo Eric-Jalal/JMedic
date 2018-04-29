@@ -9,19 +9,19 @@ import java.io.Serializable;
 
 public class TokensTemplateResponse implements Serializable {
   @SerializedName("access_token")
-  String access_token_1;
+  String access_token;
   String token_type;
   String refresh_token;
   int expires_in;
   String scope;
   String jti;
 
-  public String getAccess_token_1() {
-    return access_token_1;
+  public String getAccess_token() {
+    return access_token;
   }
 
-  public void setAccess_token_1(String access_token_1) {
-    this.access_token_1 = access_token_1;
+  public void setAccess_token(String access_token) {
+    this.access_token = access_token;
   }
 
   public String getToken_type() {
