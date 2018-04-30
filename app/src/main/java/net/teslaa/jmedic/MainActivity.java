@@ -1,6 +1,7 @@
 package net.teslaa.jmedic;
 
 import android.os.Bundle;
+import android.support.annotation.NonNull;
 import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 import retrofit2.Call;
@@ -13,6 +14,7 @@ public class MainActivity extends AppCompatActivity {
 
     String access_token;
     String location_name;
+    String userId;
     double lat;
     double lng;
 
@@ -30,7 +32,7 @@ public class MainActivity extends AppCompatActivity {
                 Response<TokensTemplateResponse> response) {
                 if (response.body() != null) {
                     Log.i(TAG, "got it" + response.body().access_token);
-                    access_token = response.body().access_token;
+                    access_token = "Bearer " + response.body().access_token;
                 }
             }
 
@@ -44,14 +46,16 @@ public class MainActivity extends AppCompatActivity {
         lat = 52.534709;
         lng = 13.3976972;
         location_name= "Fritzhof";
+        userId = "rowanto";
         // Getting latitude and longitude --> End up
 
         // Getting doctors search result --> Start
-        Call<SearchDoctorTemplateResponse> searchDoctorTemplateResponseCall = JMedicServices.searchDoctor(location_name, lat, lng);
+        Call<SearchDoctorTemplateResponse> searchDoctorTemplateResponseCall = JMedicServices.searchDoctor(access_token, userId, location_name, lat, lng);
         searchDoctorTemplateResponseCall.enqueue(new Callback<SearchDoctorTemplateResponse>() {
             @Override
-            public void onResponse(Call<SearchDoctorTemplateResponse> call, Response<SearchDoctorTemplateResponse> response) {
+            public void onResponse(Call<SearchDoctorTemplateResponse> call, @NonNull Response<SearchDoctorTemplateResponse> response) {
                 Log.i(TAG, "Successful retrieved doctors list");
+
             }
 
             @Override
@@ -61,6 +65,7 @@ public class MainActivity extends AppCompatActivity {
         });
         // Getting doctors search --> End up
 
+        
 
     }
 }
