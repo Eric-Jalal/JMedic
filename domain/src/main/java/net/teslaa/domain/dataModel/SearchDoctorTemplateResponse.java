@@ -1,4 +1,4 @@
-package net.teslaa.jmedic;
+package net.teslaa.domain.dataModel;
 
 import java.util.ArrayList;
 

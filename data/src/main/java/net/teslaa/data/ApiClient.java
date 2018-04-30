@@ -1,4 +1,4 @@
-package net.teslaa.jmedic;
+package net.teslaa.data;
 
 import java.util.concurrent.TimeUnit;
 import okhttp3.OkHttpClient;
@@ -6,14 +6,10 @@ import retrofit2.Retrofit;
 import retrofit2.converter.gson.GsonConverterFactory;
 
 /**
- * Created by ahHosseini on 4/28/18.
+ * Data retrieval api provider
  */
-
-
 public class ApiClient {
-
-
-  private static Retrofit retrofit = null;
+  static Retrofit retrofit = null;
 
   public static Retrofit getClient() {
 

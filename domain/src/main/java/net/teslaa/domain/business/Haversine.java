@@ -1,4 +1,4 @@
-package net.teslaa.jmedic;
+package net.teslaa.domain.business;
 
 /**
  * This class is subjected to calculate distance between to lat and lng

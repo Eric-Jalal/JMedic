@@ -1,4 +1,4 @@
-package net.teslaa.jmedic;
+package net.teslaa.domain.dataModel;
 
 public class Doctors {
     String address;

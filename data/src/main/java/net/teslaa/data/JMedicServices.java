@@ -1,7 +1,9 @@
-package net.teslaa.jmedic;
+package net.teslaa.data;
+
+import net.teslaa.domain.dataModel.SearchDoctorTemplateResponse;
+import net.teslaa.domain.dataModel.TokensTemplateResponse;
 
 import retrofit2.Call;
-import retrofit2.http.Body;
 import retrofit2.http.GET;
 import retrofit2.http.Header;
 import retrofit2.http.Headers;
@@ -10,7 +12,7 @@ import retrofit2.http.Path;
 import retrofit2.http.Query;
 
 /**
- * Created by ahHosseini on 4/28/18.
+ * Created by teslaa on 4/28/18.
  */
 
 public interface JMedicServices {
@@ -29,7 +31,6 @@ public interface JMedicServices {
   })
   @GET("/api/users/{user}/doctors")
   Call<SearchDoctorTemplateResponse> searchDoctor(
-
           @Header("Authorization")
           String access_token,
           @Path("user")
@@ -40,6 +41,4 @@ public interface JMedicServices {
           double lat,
           @Query("lng")
           double lng);
-
-
 }
