@@ -8,7 +8,7 @@ import retrofit2.converter.gson.GsonConverterFactory;
 /**
  * Data retrieval api provider
  */
-public class ApiClient {
+public class ApiRepository {
   static Retrofit retrofit = null;
 
   public static Retrofit getClient() {

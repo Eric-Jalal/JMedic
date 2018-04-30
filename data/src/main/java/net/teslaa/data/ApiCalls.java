@@ -6,11 +6,6 @@ import android.util.Log;
 import net.teslaa.domain.dataModel.SearchDoctorTemplateResponse;
 import net.teslaa.domain.dataModel.TokensTemplateResponse;
 
-import net.teslaa.data.ApiClient;
-import net.teslaa.data.JMedicServices;
-import net.teslaa.domain.dataModel.SearchDoctorTemplateResponse;
-import net.teslaa.domain.dataModel.TokensTemplateResponse;
-
 import java.util.Objects;
 
 import retrofit2.Call;
@@ -27,17 +22,17 @@ public class ApiCalls {
     private String userId;
     private double lat;
     private double lng;
-    private JMedicServices JMedicServices = ApiClient.getClient().create(JMedicServices.class);
+    private JMedicServices JMedicServices = ApiRepository.getClient().create(JMedicServices.class);
 
-    public void getAccess_token() {
+    public void getAccess_token(String grant_type, String username, String password) {
         // Getting the access token --> Start
-        Call<TokensTemplateResponse> tokensTemplateResponseCall = JMedicServices.accessToken();
+        Call<TokensTemplateResponse> tokensTemplateResponseCall = JMedicServices.accessToken(grant_type, username, password);
         tokensTemplateResponseCall.enqueue(new Callback<TokensTemplateResponse>() {
             @Override
             public void onResponse(Call<TokensTemplateResponse> call,
                                    Response<TokensTemplateResponse> response) {
                 Log.i(TAG, "got it" + response.body());
-                access_token = "Bearer " + Objects.requireNonNull(response.body()).getAccess_token();
+                access_token = "Bearer " + response.body().access_token;
             }
 
             @Override

@@ -9,8 +9,8 @@ import java.io.Serializable;
 
 public class TokensTemplateResponse implements Serializable {
   @SerializedName("access_token")
-  String access_token;
-  String token_type;
+  public String access_token;
+  public String token_type;
 
     public String getAccess_token() {
         if (access_token != null) {

@@ -22,8 +22,15 @@ public interface JMedicServices {
       "Accept: application/json",
       "Authorization: Basic aXBob25lOmlwaG9uZXdpbGxub3RiZXRoZXJlYW55bW9yZQ=="
   })
-  @POST("/oauth/token?grant_type=password&username=rowanto@uvita.eu&password=88888888")
-  Call<TokensTemplateResponse> accessToken();
+  @POST("/oauth/token&username=rowanto@uvita.eu&password=88888888")
+  Call<TokensTemplateResponse> accessToken(
+          @Query("grant_type")
+          String grant_type,
+          @Query("username")
+          String username,
+          @Query("password")
+          String password
+          );
 
 
   @Headers({
