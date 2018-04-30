@@ -1,16 +1,17 @@
 package net.teslaa.jmedic;
 
 import retrofit2.Call;
-import retrofit2.http.Body;
 import retrofit2.http.GET;
 import retrofit2.http.Headers;
 import retrofit2.http.POST;
+import retrofit2.http.Path;
+import retrofit2.http.Query;
 
 /**
  * Created by ahHosseini on 4/28/18.
  */
 
-public interface JMedicService {
+public interface JMedicServices {
 
   @Headers({
       "Content-Type: application/x-www-form-urlencoded",
@@ -21,6 +22,18 @@ public interface JMedicService {
   Call<TokensTemplateResponse> accessToken();
 
 
-  @GET("")
-
+  @Headers({
+          "Accept: application/json",
+          "Authorization: Bearer {access_token}"
+  })
+  @GET("/api/users/me/doctors")
+  Call<SearchDoctorTemplateResponse> searchDoctor(
+          @Query("location_name")
+          String location_name,
+//          @Query("access_token")
+//          String access_token,
+          @Query("lat")
+          double lat,
+          @Query("lng")
+          double lng);
 }

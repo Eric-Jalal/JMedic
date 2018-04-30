@@ -11,6 +11,11 @@ public class MainActivity extends AppCompatActivity {
 
     private static final String TAG = "JMedic";
 
+    String access_token;
+    String location_name;
+    double lat;
+    double lng;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -18,13 +23,14 @@ public class MainActivity extends AppCompatActivity {
 
 
         // Getting the access token --> Start
-        JMedicService jMedicService = ApiClient.getClient().create(JMedicService.class);
-        Call<TokensTemplateResponse> tokensTemplateResponseCall = jMedicService.accessToken();
+        JMedicServices JMedicServices = ApiClient.getClient().create(JMedicServices.class);
+        Call<TokensTemplateResponse> tokensTemplateResponseCall = JMedicServices.accessToken();
         tokensTemplateResponseCall.enqueue(new Callback<TokensTemplateResponse>() {
             @Override public void onResponse(Call<TokensTemplateResponse> call,
                 Response<TokensTemplateResponse> response) {
                 if (response.body() != null) {
                     Log.i(TAG, "got it" + response.body().access_token);
+                    access_token = response.body().access_token;
                 }
             }
 
@@ -33,6 +39,27 @@ public class MainActivity extends AppCompatActivity {
             }
         });
         // Getting the access token --> End up
+
+        // Getting latitude and longitude --> Start
+        lat = 52.534709;
+        lng = 13.3976972;
+        location_name= "Fritzhof";
+        // Getting latitude and longitude --> End up
+
+        // Getting doctors search result --> Start
+        Call<SearchDoctorTemplateResponse> searchDoctorTemplateResponseCall = JMedicServices.searchDoctor(location_name, lat, lng);
+        searchDoctorTemplateResponseCall.enqueue(new Callback<SearchDoctorTemplateResponse>() {
+            @Override
+            public void onResponse(Call<SearchDoctorTemplateResponse> call, Response<SearchDoctorTemplateResponse> response) {
+                Log.i(TAG, "Successful retrieved doctors list");
+            }
+
+            @Override
+            public void onFailure(Call<SearchDoctorTemplateResponse> call, Throwable t) {
+                Log.e(TAG, "Retrieving doctors list was unsuccessful");
+            }
+        });
+        // Getting doctors search --> End up
 
 
     }
